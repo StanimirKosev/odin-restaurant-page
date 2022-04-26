@@ -8,8 +8,6 @@ body{
     padding: 0;
     min-height: 100vh;
     width: 100%;
-    display: flex;
-    justify-content: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -43,6 +41,7 @@ img[src*=background]{
 .middle{
     position: absolute;
     top:40%;
+    left: 25%;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     width:50%;
@@ -53,9 +52,6 @@ img[src*=background]{
     flex-direction: column;
     align-items: center;
 }
-
-
-
 
 img[src*=chef]{
     width: 300px;

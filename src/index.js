@@ -1,1 +1,3 @@
-console.log('qpak');
+import { home } from './home';
+
+home();
