@@ -4,6 +4,7 @@ The Odin Project Curriculum - Full Stack JavaScript Path - JavaScript Section - 
 Goal: Build a restaurant page using only JavaScript
 
 ## Skills learned:
-- Webpack
+- ES6 Modules
+- Webpack , npm
 
 [Link](https://stanimirkosev.github.io/odin-restaurant-page/)
