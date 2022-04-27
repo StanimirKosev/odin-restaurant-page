@@ -3,8 +3,8 @@ const parent = document.querySelector('.content'); // only element in html
 function home(){ // default page layout, always loads
     
     let backgroundImg = document.createElement('img');
-    backgroundImg.src = '../pics-fonts/background.jpg'
-    backgroundImg.alt = 'meat-cuts-picture'
+    backgroundImg.src = '../pics-fonts/background.jpg';
+    backgroundImg.alt = 'meat-cuts-picture';
     parent.appendChild(backgroundImg);
 
     let header = document.createElement('div');

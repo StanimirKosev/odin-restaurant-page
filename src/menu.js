@@ -2,8 +2,8 @@ function menu(){
     let middleMenu = document.querySelector('.middle'); 
 
     let meatImg = document.createElement('img');
-    meatImg.src = '../pics-fonts/meat1.jpg'
-    meatImg.alt = 'meat-picture-1'
+    meatImg.src = '../pics-fonts/meat1.jpg';
+    meatImg.alt = 'meat-picture-1';
     middleMenu.appendChild(meatImg);
 
     let p2 = document.createElement('p');
@@ -15,8 +15,8 @@ function menu(){
     middleMenu.appendChild(p1);
 
     let meatImg2 = document.createElement('img');
-    meatImg2.src = '../pics-fonts/meat2.jpg'
-    meatImg2.alt = 'meat-picture-2'
+    meatImg2.src = '../pics-fonts/meat2.jpg';
+    meatImg2.alt = 'meat-picture-2';
     middleMenu.appendChild(meatImg2);
 
     let p3 = document.createElement('p');

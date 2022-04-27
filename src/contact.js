@@ -10,8 +10,8 @@ function contact(){
     middleMenu.appendChild(p1);
 
     let mapImg = document.createElement('img');
-    mapImg.src = '../pics-fonts/map.png'
-    mapImg.alt = 'map-picture'
+    mapImg.src = '../pics-fonts/map.png';
+    mapImg.alt = 'map-picture';
     middleMenu.appendChild(mapImg);
 }
 
