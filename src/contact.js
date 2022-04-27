@@ -1,7 +1,5 @@
-const parent = document.querySelector('.content'); // only el in html
-
 function contact(){
-    let middleMenu = document.querySelector('.middle'); // for dom 
+    let middleMenu = document.querySelector('.middle'); 
 
     let p2 = document.createElement('p');
     p2.textContent = 'Call :123 456 789';

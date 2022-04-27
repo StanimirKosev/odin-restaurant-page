@@ -1,7 +1,5 @@
-const parent = document.querySelector('.content'); // only el in html
-
 function menu(){
-    let middleMenu = document.querySelector('.middle'); // for dom
+    let middleMenu = document.querySelector('.middle'); 
 
     let meatImg = document.createElement('img');
     meatImg.src = '../pics-fonts/meat1.jpg'

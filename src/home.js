@@ -1,13 +1,12 @@
-const parent = document.querySelector('.content'); // only el in html
+const parent = document.querySelector('.content'); // only element in html
 
-function home(){
+function home(){ // default page layout, always loads
     
     let backgroundImg = document.createElement('img');
     backgroundImg.src = '../pics-fonts/background.jpg'
     backgroundImg.alt = 'meat-cuts-picture'
     parent.appendChild(backgroundImg);
 
-    // Header
     let header = document.createElement('div');
     parent.appendChild(header).className = 'header';
 
@@ -29,13 +28,12 @@ function home(){
     header.appendChild(contact).className = 'contact';
 
     let middle = document.createElement('div');
-    parent.appendChild(middle).className = 'middle'; // target element here bcs of the empty function
+    parent.appendChild(middle).className = 'middle'; // middle content here cuz i have to target it with the empty() function in index.js
 }
     
 function homeContent(){
     
-    //Middle content
-    let middle = document.querySelector('.middle'); // for dom
+    let middle = document.querySelector('.middle'); // previous element again, because its need for the DOM 
 
     let p1 = document.createElement('p');
     p1.textContent = 'You can pay with Bitcoin';
