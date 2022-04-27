@@ -3,7 +3,7 @@ const parent = document.querySelector('.content'); // only element in html
 function home(){ // default page layout, always loads
     
     let backgroundImg = document.createElement('img');
-    backgroundImg.src = '../pics-fonts/background.jpg';
+    backgroundImg.src = 'pics-fonts/background.jpg';
     backgroundImg.alt = 'meat-cuts-picture';
     parent.appendChild(backgroundImg);
 
@@ -44,7 +44,7 @@ function homeContent(){
     middle.appendChild(p2);
 
     let chefImg = document.createElement('img');
-    chefImg.src = '../pics-fonts/chef.jpg';
+    chefImg.src = 'pics-fonts/chef.jpg';
     chefImg.alt = 'chef-cooking';
     middle.appendChild(chefImg);
 
