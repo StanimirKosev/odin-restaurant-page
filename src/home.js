@@ -18,22 +18,24 @@ function home(){
 
     let home = document.createElement('button');
     home.textContent = 'Home';
-    header.appendChild(home);
+    header.appendChild(home).className = 'home';
     
     let menu = document.createElement('button');
     menu.textContent = 'Menu';
-    header.appendChild(menu);
+    header.appendChild(menu).className = 'menu';
 
     let contact = document.createElement('button');
     contact.textContent = 'Contact';
-    header.appendChild(contact);
+    header.appendChild(contact).className = 'contact';
+
+    let middle = document.createElement('div');
+    parent.appendChild(middle).className = 'middle'; // target element here bcs of the empty function
 }
     
 function homeContent(){
     
     //Middle content
-    let middle = document.createElement('div');
-    parent.appendChild(middle).className = 'middle';
+    let middle = document.querySelector('.middle'); // for dom
 
     let p1 = document.createElement('p');
     p1.textContent = 'You can pay with Bitcoin';
