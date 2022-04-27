@@ -1,8 +1,9 @@
+const parent = document.querySelector('.content'); // only el in html
+
 function home(){
-    const parent = document.querySelector('.content');
     
     let backgroundImg = document.createElement('img');
-    backgroundImg.src = '../pics-fonts/background-meat.jpg'
+    backgroundImg.src = '../pics-fonts/background.jpg'
     backgroundImg.alt = 'meat-cuts-picture'
     parent.appendChild(backgroundImg);
 
@@ -15,18 +16,21 @@ function home(){
     header.appendChild(title);
     title.classList = 'title';
 
-    let home = document.createElement('div');
+    let home = document.createElement('button');
     home.textContent = 'Home';
     header.appendChild(home);
     
-    let menu = document.createElement('div');
+    let menu = document.createElement('button');
     menu.textContent = 'Menu';
     header.appendChild(menu);
 
-    let contact = document.createElement('div');
+    let contact = document.createElement('button');
     contact.textContent = 'Contact';
     header.appendChild(contact);
-
+}
+    
+function homeContent(){
+    
     //Middle content
     let middle = document.createElement('div');
     parent.appendChild(middle).className = 'middle';
@@ -49,4 +53,4 @@ function home(){
     middle.appendChild(p3);
 }
 
-export { home };
+export { home , homeContent};
